@@ -8,5 +8,8 @@ public class Main {
 
             dog.eat("bone");
             cat.eat("mouse");
+
+            dog.mood(false);
+            cat.mood(true);
     }
 }
