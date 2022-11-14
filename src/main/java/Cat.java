@@ -10,9 +10,9 @@ public class Cat extends Animal{
     @Override
     public void mood(boolean goodMood){
         if(goodMood){
-            System.out.println("waking tail");
+            System.out.println("purring");
         }else{
-            System.out.println("growling");
+            System.out.println("hissing");
         }
     }
 }
